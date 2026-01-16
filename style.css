@@ -1,0 +1,242 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+html {
+  background-color: black;
+}
+
+body {
+  font-family: Pretendard;
+  overflow-x: hidden;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#hero {
+  width: 100%;
+  background-image: url(./space.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#main-logo {
+  margin: auto;
+  display: block;
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+}
+
+header {
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.4em;
+}
+
+#header-logo {
+  width: 70%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+}
+
+#earth {
+  width: 60%;
+  transform: translateX(20%);
+}
+
+#launch {
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#launch-time {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+#launch-subtitle {
+  margin-top: 40px;
+  font-size: 1.3em;
+}
+
+#launch-timer {
+  margin-top: 15px;
+  font-size: 4em;
+  font-weight: 500;
+  font-family: Orbitron;
+}
+
+
+#vision {
+  background-color: rgb(185, 217, 255);
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#vision-list {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  list-style-type: disc;
+}
+
+#introduction {
+  background-color: white;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#profiles {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile {
+  width: 30%;
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.profile h1 {
+  margin-top: 1em;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.profile h2 {
+  margin-top: 0.5em;
+  font-weight: 600;
+  color: gray;
+}
+
+#shop {
+  background-color: bisque;
+  padding: 5em 0;
+  text-align: center;
+}
+
+#shop img {
+  width: 50%;
+  margin: 70px auto 0;
+  display: block;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 2em;
+  border: lightgray 1px solid;
+}
+
+#shop h2 {
+  margin-top: 2em;
+  font-size: x-large;
+}
+
+#shop h3 {
+  margin-top: 0.6em;
+  color: gray;
+}
+
+#shop p {
+  margin-top: 1.5em;
+  font-size: 1.3em;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(224, 224, 224), rgb(0, 0, 0));
+  font-size: 1.2rem;
+  color: white;
+}
+
+footer img {
+  width: 70%;
+  aspect-ratio: 10/4;
+  object-fit: cover;
+}
+
+footer p {
+  padding-top: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  #main-logo {
+    width: 80px;
+    height: 50px;
+  }
+
+  header {
+    margin-left: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2em;
+  }
+
+  #header-logo {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  #launch-time {
+    font-size: 1.5rem;
+  }
+
+  #launch-timer {
+    font-size: 2.2em;
+  }
+
+  #vision-list {
+    font-size: 1.2rem;
+  }
+
+  #profiles {
+    display: block;
+  }
+
+  .profile {
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  #shop img {
+    width: 80%;
+  }
+
+  footer {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+}
